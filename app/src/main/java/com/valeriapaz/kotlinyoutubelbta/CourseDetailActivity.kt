@@ -1,9 +1,7 @@
 package com.valeriapaz.kotlinyoutubelbta
 
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -106,7 +104,7 @@ class CourseDetailActivity : AppCompatActivity() {
         init {
             customView.setOnClickListener {
 
-                val intent = Intent(customView.context, CourseDetailActivity::class.java)
+                val intent = Intent(customView.context, CourseLessonActivity::class.java)
 
                 intent.putExtra(COURSE_LESSON_LINK_KEY, courseLesson?.link)
 

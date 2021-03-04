@@ -4,7 +4,6 @@ package com.valeriapaz.kotlinyoutubelbta
  * * Created by Valeria Paz on 03/03/21.
  */
 
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager

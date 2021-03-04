@@ -1,8 +1,6 @@
 package com.valeriapaz.kotlinyoutubelbta
 
-import android.graphics.Color
 import android.os.Bundle
-import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_course_lesson.*
 
